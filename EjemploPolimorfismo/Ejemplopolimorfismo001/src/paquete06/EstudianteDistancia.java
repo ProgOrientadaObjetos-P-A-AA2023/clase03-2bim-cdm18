@@ -6,10 +6,16 @@
 package paquete06;
 
 public class EstudianteDistancia extends Estudiante {
+
     /*1.  Declarar
-        numeroAsignaturas: Entero 
-        costoAsginatura: Real 
-    */ 
+    numeroAsignaturas: Entero
+    costoAsginatura: Real
+     */ 
+    public EstudianteDistancia(String nombre, String apellido) {
+        super(nombre, apellido);
+    }
+ 
+    
     
     int numeroAsignaturas;
     double costoAsignatura;
